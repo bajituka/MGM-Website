@@ -1,0 +1,45 @@
+article {
+	padding-bottom: 20px;
+}
+
+/*Fix for excessive top-padding in navbar that pushed the logo*/
+.mgm_nav a {
+	padding-top: 0;
+}
+
+/*Fix for "jumping" padding on li elements when hover*/
+.navbar-nav li a {
+	padding-bottom: 12px;
+}
+
+.mgm_nav li a:hover {
+	border-bottom: 3px solid #33CC33;
+}
+
+/*Lesser font-size in services description + black article background*/
+#price {
+	font-size: 13px;
+	background-color: #000;
+	opacity: 0.9;
+}
+
+#price h1 {
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+#vk_groups {
+	margin-top: 40px;
+}
+#footer {
+	background-color: #000;
+	opacity: 0.9;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+}
+@media only screen and (max-width: 768px) {
+	.mgm_nav li a:hover {
+		border-bottom: none;
+	}
+}
