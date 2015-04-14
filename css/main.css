@@ -38,6 +38,7 @@ article {
 	padding-bottom: 15px;
 	color: #fff;
 }
+
 @media only screen and (max-width: 768px) {
 	.mgm_nav li a:hover {
 		border-bottom: none;
